@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.loginui{
+    background: url(https://i.pinimg.com/originals/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg?nii=t);
+    background-repeat: no-repeat;
+    /* background:transparent; */
+    /* background-color: white; */
+    /* backdrop-filter:inherit; */
+    background-image: linear-gradient(18deg,black,18deg ,grey);
+
+    height:100vh;
+    width: 100vw;
+}
+.navbar{
+    padding:20px 130px;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+.navbar img{
+    height:40px;
+    width:150px;
+    
+}
+.sign{
+    padding-right:40px;
+    display:flex;
+    justify-content: space-around;
+    height:32px;
+    gap:20px;   
+
+}
+.sign select{
+
+    background-color:black;
+    color:white;
+    padding:5px;
+    width:124.4px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.sign button{
+    background-color: red;
+    color:white;
+    border:1px solid white;
+    padding:8px;
+    width:76.9px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.mainsec{
+    color:white;
+    text-align: center;
+    /* font-size: 2em; */
+    padding:150px 150px;
+
+}
+.mainsec h1{
+    font-size: 4em;
+}
+.mainsec p{
+    font-size: 1.5em;
+}
+.mailsec button{
+    height:56px;
+    width:180px;
+    background-color: red;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.mailsec input{
+    height:56px;
+    width:320px;
+    background-color: rgba(0, 0, 0, 0.388);
+    backdrop-filter: blur(3px);
+    border:1px solid white;
+    border-radius:5px;
+
+}
+.secondsec{
+   
+    height:350vh;
+    background-color: black;
+    color:white;
+    padding:30px 145px;
+    /* padding:30px 100px; */
+}
+.trend{
+    height:400px;
+}
+.shows{
+    display:flex;
+    overflow-x: scroll;
+    justify-content:space-evenly;
+    scrollbar-width: none;
+    
+}
+.shows img{
+    margin:20px;
+    height:160;
+    width:125;
+    border-radius:10px ;
+}
+/* .shows img:hover{
+    height:250px;
+    width:160px;
+} */
+.reasoncont{
+    margin-top:30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.reasoncont section{
+    height:260px;
+    width:290px;
+    background:linear-gradient(135deg,rgb(12, 12, 84)55%,rgb(133, 66, 82));
+    border-radius: 16px;
+    padding:30px;
+   
+    
+}
+[class|=solid]{
+    color:white;
+}
+.frequestion{
+    margin-top:50px;
+}
+.ques{
+    height:80px;
+    background-color:rgb(65, 63, 63);
+    margin:10px;
+    padding:18px;
+    font-size: 2em;
+    
+    display:flex;
+    justify-content:space-between ;
+
+}
+.plus{
+    font-size: 1.55em;
+    padding:-2px;
+}
+.ques:hover{
+    background-color: rgb(105, 103, 103);
+}
+.footsign{
+    margin:50px;
+}
+.footsign p{
+    text-align: center;
+    font-size: 1.1em;
+}
+.footsign form{
+    text-align: center;
+    border-radius: 10px;
+}
+.footsign input{
+    margin:20px;
+    height:50px;
+    width:530px;
+    border-radius: 5px;
+    background-color: black;
+    backdrop-filter: blur(2px);
+    border: 1px solid white;
+}
+
+.footsign button{
+    height:50px;
+    width:250px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+
+}
+.footsign input:hover{
+    border:2px solid white; 
+}
+td a{
+    display: block;
+    color:white;
+    margin:10px 0px;
+   
+}
+table{
+    width:100%;
+    margin:30px 0px;
+}
+.sign1{
+    position: left;
+}
+.sign1 select{
+    background-color: black;
+    color: white;
+    height:32px;
+    width:125px;
+    padding:5px;
+    border-radius: 5px;
+
+}
+.foot{
+    margin:50px 0px;
+}
